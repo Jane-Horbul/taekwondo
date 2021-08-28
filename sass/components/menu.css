@@ -1,4 +1,22 @@
 .menu {
   border: 1px solid aqua;
 }
+
+.menu-logo {
+  width: 200px;
+}
+
+.menu-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #0b0271;
+}
+
+.menu-main-item {
+  font-size: 14px;
+}
 /*# sourceMappingURL=menu.css.map */
