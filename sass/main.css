@@ -6,7 +6,8 @@
 }
 
 .menu-logo {
-  width: 140px;
+  width: 120px;
+  margin-right: 55px;
 }
 
 .menu-main {
@@ -23,6 +24,7 @@
 
 .menu-main-item {
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .main-banner {
@@ -33,6 +35,18 @@
 
 .main-schedule {
   border: 1px solid aqua;
+}
+
+.main-schedule-table {
+  width: 98%;
+  border: 1px solid #096cc4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-schedule-table-td {
+  border: 1px solid #096cc4;
+  padding: 5px;
 }
 
 .main-price {
@@ -68,5 +82,15 @@ html {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
+}
+
+body {
+  color: #757575;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=main.css.map */
